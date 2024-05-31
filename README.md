@@ -42,6 +42,7 @@ You can clone this repository into your notebook to get a copy of the Jupyter No
 5. Open the example notebook `OllamaOpenAIDemo` and make sure you are running it with the "Python \[conda env:llm\]" kernel
 6. Modify the model and message content as appropriate for one of the models you downloaded
 7. Execute the cell to verify everything works as expected
+   - This may take a few moments if the LLM is not already loaded onto the GPU
 
 ### Commandline Interaction
 You can also run Ollama from the commandline. This is useful for quick interactions with an LLM before writing the code to ineract with the API
