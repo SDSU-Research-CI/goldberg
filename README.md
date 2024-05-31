@@ -37,10 +37,11 @@ These models should remain under /home/jovyan/.ollama/models. Anything stored un
 You can clone this repository into your notebook to get a copy of the Jupyter Notebook:
 1. Click the "+" icon in the top left
 2. From the start page, select the Terminal icon to pull up a linux terminal
-3. Run the command `git clone `
-4. Open the example notebook and make sure you are running it with the "Python \[conda env:llm\]" kernel
-5. Modify the model and message content as appropriate for one of the models you downloaded
-6. Execute the cell to verify everything works as expected
+3. Run the command `git clone https://github.com/SDSU-Research-CI/goldberg.git`
+4. Navigate to the repository directory via the file explorer
+5. Open the example notebook `OllamaOpenAIDemo` and make sure you are running it with the "Python \[conda env:llm\]" kernel
+6. Modify the model and message content as appropriate for one of the models you downloaded
+7. Execute the cell to verify everything works as expected
 
 ### Commandline Interaction
 You can also run Ollama from the commandline. This is useful for quick interactions with an LLM before writing the code to ineract with the API
